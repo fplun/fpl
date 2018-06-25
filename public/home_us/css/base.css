@@ -1,0 +1,56 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: "微软雅黑 , arial, helvetica, sans-serif";color:#333;word-break: break-all;}
+body,html{margin: 0 auto;background-color: #f8f8f8;}
+img{border: 0;}
+.clear{clear: both; display: block; line-height: 0; font-size: 0; width:100%;}
+.clearfix:after{content:" ";clear: both; display: block; line-height: 0; font-size: 0; width:100%;}
+li,ul,ol{list-style:none;}
+
+
+/*二级页面头部*/
+.myheader{width: 100%;height:5.5rem;}
+.myheader_con{width: 100%;height:5.5rem;box-sizing: border-box;padding:1rem;position: fixed;top:0;left:0;z-index:60;background-color:#222;}
+.myheader .mytitle{display:inline-block;width: 100%;height:3.5rem;font-size: 2.25rem;color:#fff;line-height: 3.5rem;text-align: center;}
+.myheader .myreturn{display: inline-block;width: 2.12rem;height:3.25rem;background: url(../images/icon_back.png) no-repeat center;background-size: 50% 50%;position: absolute;top:50%; left:1rem;transform: translate(0,-50%);}
+
+
+/*头部样式*/
+.index_top{height:5.5rem;width:100%;}
+.index_top .index_top_con{position: fixed;z-index:60;width:100%;top:0;left:0%;height:5.5rem; overflow: hidden;background-color:#226fdf; text-align: center; box-sizing: border-box; padding:0 7rem;}
+.index_top .index_top_con i{display: block; position: absolute; left:0; top: 0; height:5.5rem; width:6rem; background: url(../images/icon_index_top.png) no-repeat center; background-size:2.9375rem 1.4375rem;}
+.index_top .index_top_con h1{width:100%; height:5.5rem; line-height:5.5rem; color:#FFFFFF; font-size:2.25rem; font-weight: 700;}
+/*侧滑栏*/
+.leftswipe_mark{display:none;position: fixed;width:100%; height:100%;z-index:998; background-color: rgba(0,0,0,.1);top: 0; left:0;transition: all 0.2s;}
+.leftswipe{width:26.25rem; height:100%; position:fixed; top: 0; left: -26.25rem;z-index:999; background-color:#FFFFFF; overflow-x: hidden; overflow-y: auto;transition: all 0.2s;}
+.leftswipe .top{ width:100%; height:20.5rem; padding-top:5.5rem; background-color:#a2c3f4;}
+.leftswipe .top .img{ width:10rem;height:10rem; border: 1px solid #1e89f6; border-radius:10rem; margin: 0 auto;}
+.leftswipe .top .img img{ width:8.75rem; height:8.75rem;border-radius:8.75rem;overflow: hidden; margin:0.625rem auto; display: block;}
+.leftswipe .top h3{ height:4.375rem; line-height: 4.375rem; width:100%; text-align: center; color:#FFFFFF; font-size:1.75rem;}
+.leftswipe .top p{height:3.125rem; line-height: 3.125rem; text-align: center;color: #e7eefc; font-size:1.75rem;}
+.leftswipe .top p i{ display: inline-block; width:1.55rem; height: 1.55rem; background: url(../images/zaixian.png) no-repeat center; vertical-align:text-bottom; background-size:1.55rem; margin-right:0.5rem;}
+.leftswipe .top p i.lixiang{background-image:url(../images/lixian.png);}
+.leftswipe .leftnav{ padding:1.5rem; }
+.leftswipe .leftnav li a{ display: block; width:100%; height: 100%;font-size:1.75rem;}
+.leftswipe .leftnav li{ width:100%; border-top:1px solid #e5e5e5; height:4.5rem; line-height:4.5rem; }
+.leftswipe .leftnav li:nth-child(1){border-top:0;}
+.leftswipe .leftnav li a:before{ content:""; display: inline-block; width:3.75rem; height:4.5rem; vertical-align: middle;background: no-repeat center;}
+.leftswipe .leftnav li:nth-child(1) a:before{background-image: url(../images/lefticon_1.png);background-size:1.75rem 2rem;}
+.leftswipe .leftnav li:nth-child(2) a:before{background-image: url(../images/lefticon_2.png);background-size:2rem 1.8rem;}
+.leftswipe .leftnav li:nth-child(3) a:before{background-image: url(../images/lefticon_3.png);background-size:1.8rem 2.1rem;}
+.leftswipe .leftnav li:nth-child(4) a:before{background-image: url(../images/lefticon_4.png);background-size:1.9rem 1.9rem;}
+.leftswipe .leftnav li:nth-child(5) a:before{background-image: url(../images/lefticon_5.png);background-size:1.75rem 2rem;}
+.leftswipe .leftnav li:nth-child(6) a:before{background-image: url(../images/lefticon_6.png);background-size:2rem 2rem;}
+.leftswipe .leftnav li:nth-child(7) a:before{background-image: url(../images/lefticon_7.png);background-size:1.8rem 2.1rem;}
+.leftswipe .leftnav li:nth-child(8) a:before{background-image: url(../images/lefticon_8.png);background-size:1.9rem 1.9rem;}
+.leftswipe.show{left: 0;}
+.leftswipe_mark.show{display: block;}
+
+
+
+
+/*导航*/
+.nav{height:6.1rem; width:100%;}
+.nav .nav_con{z-index:60;height:6rem; width:100%;position: fixed; left: 0; bottom:0;overflow:hidden;background-color:#f9f9f9;border-top:1px solid #ddd}
+.nav .nav_con a{display: block; width:25%; height:6rem; line-height:2.5rem; font-size:1.75rem; text-align: center; text-decoration: none;position: relative; float: left;}
+.nav .nav_con a i{display: block; width:100%; height:3.5rem;}
+.nav .nav_con a:after{ content:""; display: block; width:1px; height:6rem;background-color:#ddd; position: absolute; left: -1px; top: 0;}

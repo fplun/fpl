@@ -1,0 +1,17 @@
+.myfriend_con{padding:1rem;}
+.myfriend_con .myfriend_top{ padding-bottom:2rem;}
+.myfriend_con .myfriend_top a{float: left;font-size:1.75rem;padding-top:2.5rem ;line-height:2rem;display:block;border-radius:0.75rem;text-decoration:none; width:20.625rem; height:13.1875rem; background-color:#449cff;color:#FFFFFF; text-align: center;}
+.myfriend_con .myfriend_top a b{ display:block; font-size:3.75rem; line-height:6rem;color:#fff; height:6rem;}
+.myfriend_con .myfriend_top a span{ display: inline-block; padding:0.875rem 0.2rem; color:#fff;border-radius:0.5rem;border:1px solid #FFFFFF;font-size: 1.5rem;}
+.myfriend_con .fen{ height:4.25rem; line-height:4.25rem; padding:0 1rem; font-size:1.75rem;border-top:1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD;}
+.myfriend_con .fen input{height:3.125rem; width:9.375rem; line-height:3.125rem; text-align: center;border-radius: 0.5rem;border:0;background-color:#DDDDDD;font-size:1.75rem;}
+.myfriend_con .con{ height: auto; line-height:2.5rem; padding:1rem;}
+.myfriend_con .sub{ width:41.25rem; text-align: center; background-color:#009dff;color:#FFFFFF; font-size:1.875rem;padding:1.25rem; line-height:3rem; margin: 2rem auto;border: 0;border-radius:0.75rem; display: block}
+
+
+
+
+
+
+
+

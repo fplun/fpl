@@ -1,0 +1,124 @@
+/*矿机商城*/
+.mill_shop_box{width: 100%;box-sizing: border-box;padding: 1.375rem 0 7rem;}
+.mill_shop_ul{width: 100%;}
+.mill_shop_ul .mill_shop_li{width: 100%;background-color:#fff;box-sizing: border-box;padding:1rem 1.875rem;margin-bottom: 0.8125rem;min-height:12.25rem;position: relative;}
+.mill_shop_ul .kj_img{width: 8.5rem;height: 8.5rem;background-color:#f8f8f8;border-radius:3px;position: absolute;top:50%;left:1.875rem;transform: translate(0,-50%);}
+.mill_shop_ul .kj_img img{width: 100%;height: 100%;}
+.mill_shop_ul .mill_btn{display:inline-block;width: 8.75rem;height: 3.5rem;background-color: #367ae1;font-size: 1.5rem;text-align: center;line-height: 3.5rem;color:#fff;position: absolute;top:50%;right:1.875rem;transform: translate(0,-50%);border-radius:1.75rem;border:none;}
+.mill_shop_ul .text_box{margin: 0 10.625rem 0 10.375rem;}
+.mill_shop_ul .text_box1{font-size: 1.625rem;line-height: 2.2rem;color:#323232;}
+.mill_shop_ul .text_box2{font-size: 1.375rem;line-height: 2rem;color:#646464;}
+.mill_shop_ul .text_box3{font-size: 1.625rem;line-height: 2.2rem;color:#206cde;}
+
+/*我的矿机*/
+.mill_shop_ul .text_box4{margin-bottom: 2rem;}
+
+/*我的交易密码*/
+.wdsc_wrap{width: 100%;box-sizing: border-box;padding: 0.5rem 0;}
+.wdsc_img{width:100%; height:9.375rem;font-size:2rem;color:#d6e6fd;text-shadow:0.1rem 0.2125rem 0.2125rem #000;font-weight:bold;text-align: center; line-height: 9.375rem; background: -webkit-linear-gradient(left,#9c33ec, #1a8be2); background: -o-linear-gradient(left,#9c33ec,  #1a8be2); background: -moz-linear-gradient(left,#9c33ec,  #1a8be2);background: linear-gradient(left,#9c33ec,  #1a8be2);}
+.wdsc_form{width: 100%;box-sizing: border-box;padding: 1.375rem;}
+.wdsc_ul{width: 100%;}
+.wdsc_ul .wdsc_li{width: 100%;box-sizing: border-box;padding: 1.25rem 0;border-bottom: 1px solid #e5e5e5;position: relative;}
+.wdsc_ul .wdsc_span{width: 15.25rem;height: 2.875rem;box-sizing: border-box;padding:0 0 0 1.25rem;position: absolute;top:1.25rem;left: 0;font-size: 1.75rem;color:#333;line-height: 2.875rem;}
+.wdsc_ul .wdsc_inp{margin-left: 15.25rem;box-sizing: border-box;padding:0 3.25rem 0 0;}
+.wdsc_ul .wdsc_inp input{width: 100%;height:2.875rem;box-sizing: border-box;border:1px solid #bababa;border-radius: 3px;background-color: transparent;font-size: 1.75rem;color:#333;line-height: 2.875rem;padding: 0 0.5rem;}
+.wdsc_opt{width: 100%;padding: 2.375rem 0;text-align: center;}
+.wdsc_opt .wdsc_submit{display: inline-block;width:12.75rem;height:4.125rem;box-sizing: border-box;border-radius: 5px;background-color: #009dff;font-size:1.875rem;color:#fff;line-height: 4.125rem;text-align: center;border:none;}
+
+/*实名认证*/
+.wdsc_tips{font-size:1.625rem;color:#666;padding: 0 0 0 1.25rem;}
+
+/*我的钱包*/
+.wdqb_form{width: 100%;box-sizing: border-box;padding: 1.375rem;}
+.wdqb_ul{width: 100%;}
+.wdqb_ul .wdqb_li{width: 100%;box-sizing: border-box;padding: 1.25rem 0;border-bottom: 1px solid #e5e5e5;position: relative;}
+.wdqb_ul .wdqb_span{width: 16.25rem;height: 2.875rem;box-sizing: border-box;padding:0 0 0 1.25rem;position: absolute;top:1.25rem;left: 0;font-size: 1.75rem;color:#333;}
+.wdqb_ul .wdqb_inp{margin-left: 16.25rem;box-sizing: border-box;height: 2.875rem;font-size: 1.75rem;color:#333;}
+.wdqb_opt{width: 100%;padding:1.25rem 0;text-align: center;border-bottom:1px solid #e5e5e5;;}
+.wdqb_opt .wdqb_submit{display: inline-block;width:6.875rem;height:3rem;box-sizing: border-box;border-radius: 5px;background-color: #449cff;font-size:1.5rem;color:#fff;line-height: 3rem;text-align: center;border:none;}
+.wdqb_opt .wdqb_submit:nth-of-type(1){width:8.125rem;margin-right: 3.25rem;}
+.wdqb_inp_p{display: block;width: 100%;word-break:break-all;word-wrap:break-word;}
+.wdqb_inp_p2{color:#206cde;}
+.wdqb_tips{width: 100%;box-sizing: border-box;padding:1.25rem 0 1.25rem 1.25rem;font-size:1.5rem;color:#666;}
+
+/*我的矿机挖宝中*/
+#matrix{position:absolute;z-index:2;width: 100%;height: 100%}
+.earnings_wrap {width: 100%;position: absolute;}
+.operation_wrap{width: 90%;margin:0 auto;}
+.operation_box{width: 100%;height: 100%;height:100vw;text-align: center;position: relative;}
+.quan{display:block;width:56%;position: absolute;top: 17%;left: 22%;z-index: 100;}
+
+@-webkit-keyframes gogogo {
+    0% {
+        -webkit-transform: rotate(0deg);
+        		transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        		transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        		transform: rotate(360deg);
+    }
+}
+.loading{
+    -webkit-animation:gogogo 2s infinite linear ;
+    		animation:gogogo 2s infinite linear ;
+}
+.wakuang{width:100px;height:100px;background-color:#1357a6;position: absolute;top:45%;left:50%;margin-left:-50px;margin-top:-60px;z-index:1000;line-height:100px;color: #FFFFFF;border-radius: 50%;font-size: 2.375rem;}   
+.operation_num{width:90%;position:fixed; bottom:12%;left:5%;z-index: 3;}
+.operation_num1{height: 3rem;line-height: 3rem;font-size:3rem;color:#fff;}
+.operation_num2{height: 3rem;line-height: 3rem;font-size:1.75rem;color:#fff;}
+.operation_num3{height: 3rem;line-height: 3rem;font-size:1.625rem;color:#fff;}
+.operation_num1 span,.operation_num2 span,.operation_num3 span{margin-right: 0.5rem;}
+
+/*申请网络算力*/
+.wdsc_ul .apply_span{width: 18.55rem;height: 2.875rem;box-sizing: border-box;padding:0 0 0 0.25rem;position: absolute;top:1.25rem;left: 0;font-size: 1.75rem;color:#333;line-height: 2.875rem;}
+.apply_ul .wdsc_li:nth-of-type(1){border-top: 1px solid #e5e5e5;}
+.wdsc_ul .apply_div{margin-left: 18.55rem;height: 2.875rem;line-height: 2.875rem;}
+.apply_title{width: 100%;font-size: 1.875rem;color:#333;line-height: 3rem;text-align: center;}
+.apply_tips1{font-size: 1.75rem;color:#333;line-height: inherit;box-sizing: border-box;padding:0 1.25rem;}
+.apply_div .apply_p1{font-size: 1.75rem;color:#009dff;}
+.apply_opt{width: 100%;padding: 2.375rem 0;text-align: center;}
+.apply_opt .wdsc_submit{display: inline-block;width:12.75rem;height:4.125rem;box-sizing: border-box;border-radius: 5px;background-color: #009dff;font-size:1.875rem;color:#fff;line-height: 4.125rem;text-align: center;border:none;}
+
+/*我的锁仓*/
+.mysc_ul .apply_p1{color:#333;}
+.mysc_ul .mysc_span,.mysc_ul .mysc_p1{color:#009dff;}
+.mysc_ul .mysc_p2{display: inline-block;width: 8.625rem;height: 3.2rem;box-sizing: border-box;border:1px solid #bababa;text-align: center;border-radius: 3px;}
+.mysc_tips1{width: 100%;box-sizing: border-box;padding: 0 1.25rem;font-size: 1.75rem;color:#666666;line-height: 2.5rem;}
+
+/*交易中心*/
+.tradeCenter_top{width: 100%;box-sizing: border-box;padding: 1.1875rem;}
+.chart_box{width: 100%;height:24.75rem;border-radius: 0.75rem;border: 1px solid #e5e5e5;border-top: 3px solid #37df5f;}
+.trade_price{width: 100%;font-size:1.75rem;color:#333;line-height: 5.4375rem;text-align: center;}
+.trade_price span{color:#009dff;}
+.trade_input{width: 100%;height:4.25rem;box-sizing: border-box;padding: 1rem;border-radius: 0.75rem;border: 1px solid #e5e5e5;font-size:1.75rem;color:#333;line-height: 4.25rem;}
+.trade_button{display:block;width:14.5625rem;height:4.25rem;box-sizing: border-box;border-radius: 0.75rem;;background-color: #206cde;font-size:1.5rem;color:#fff;line-height: 4.25rem;text-align: center;border:none;margin: 2rem auto;}
+.tradeCenter_bottom{width: 100%;border-top:1px solid #d3d3d3;padding: 1.5rem;box-sizing: border-box;}
+.tradeCenter_tips p{font-size: 1.5rem;color:#666666;line-height: 2.8rem;position: relative;}
+.tradeCenter_tips p span:nth-of-type(1){display: inline-block;width: 2rem;position:absolute; top:0;left: 0;}
+.tradeCenter_tips p span:nth-of-type(2){display: block;padding-left: 2rem;box-sizing: border-box;}
+.trade_wrap{width: 100%;padding-bottom: 5rem;}
+.trade_num_wrap{width: 100%;background-color:#fff;box-sizing:border-box;padding:0.1rem 0.15rem;border-bottom: 1px solid #EBEBEB;position: relative;}
+.trade_num_p1{width: 1rem;font-size: 0.2rem;color:#206cde;font-weight: bolder;line-height: 0.2rem;text-align: right;position: absolute;top: 50%;right: 0.15rem;transform: translate(0,-50%);}
+.trade_num_box{margin-right: 1rem;overflow: hidden;}
+.trade_num_p{width: 50%;float: left;font-size: 0.15rem;color:#323232;line-height: 0.2rem;}
+.trade_num_span{color:#323232;font-weight: bolder;}
+.trade_tab{width: 100%;background-color:#fff;overflow: hidden;}
+.trade_tab_li1{width: 50%;box-sizing:border-box;padding:0.5rem 0.75rem 0.5rem 1.5rem;float: left;}
+.trade_tab_li2{width: 50%;box-sizing:border-box;padding:0.5rem 1.5rem 0.5rem 0.75rem;float: left;}
+.trade_tab li a{display:inline-block;width: 100%;height: 2.8rem;background-color: #D2D2D2;font-size: 1.4rem;color:#323232;text-align: center;line-height: 2.8rem;border-radius: 3px;}
+.trade_tab li.active a{background-color: #206cde;color:#fff;}
+.trade_tab_box{width: 100%;padding:1rem;box-sizing: border-box;border-bottom: 1px solid #EBEBEB;}
+.trade_inp_box{width: 100%;box-sizing:border-box;padding:1.5rem;position: relative;}
+.trade_opt{display: inline-block;width: 5rem;height: 2.8rem;background-color: #206cde;border-radius: 3px;font-size: 1.5rem;color:#fff;text-align: center;line-height: 2.8rem;position: absolute;top:50%;right: 0.15rem;transform: translate(0,-50%);}
+.trade_inp_div{margin-right: 5rem;overflow: hidden;}
+.trade_inp_div li{width: 50%;box-sizing:border-box;padding:0 1.5rem 0 0;float: left;}
+.trade_inp_div li input{width: 100%;height: 2.8rem;border: 1px solid #EBEBEB;border-radius:3px;font-size: 1.5rem;text-align: center;line-height: 2.8rem;}
+.trade_center_box{width: 100%;box-sizing:border-box;padding:1rem 1.5rem;}
+.hide{display: none;}
+.earnings_table {width: 100%;}
+.earnings_table th{text-align: center;border-bottom: 1px solid #ebebeb;padding: 0.7rem 0;font-size: 1.5rem;color: #646464;line-height: 2rem;text-align: center;font-weight: bolder;}
+.earnings_table td{text-align: center;border-bottom: 1px solid #ebebeb;padding: 0.7rem 0;font-size: 1.5rem;color: #646464;line-height: 2rem;text-align: center;}

@@ -1,0 +1,10 @@
+.safety_con{ padding:6.25rem 0 0 0; text-align: center;}
+.safety_con .img{width:9.5rem; height:12rem; margin: 0 auto;}
+.safety_con .img img{width:100%; height:100%;}
+.safety_con  p{ padding: 1rem 0; font-size:1.5rem; line-height:1.85rem; color:#666666;}
+.safety_con  .safety_cz{padding:12.5rem 8.25rem 0; text-align:left;position: relative;}
+.safety_con  .safety_cz img{width:10rem; height:10rem;position: absolute; top:12.9rem; left:8.25rem;z-index:2;}
+.safety_con  .safety_cz span{z-index:1;position: absolute;right:8.25rem; top: 11.875rem; display: block;width:11.875rem; height:11.875rem; background: url(../images/safety_iocn5.png) no-repeat center; background-size:100%;}
+.safety_con  .safety_cz span.list{background-image:url(../images/safety_iocn4.png);}
+.safety_con  .safety_cz img.list{left:initial; right:9.1875rem;}
+

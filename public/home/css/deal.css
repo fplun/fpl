@@ -1,0 +1,39 @@
+.deal_con{ width:44rem; margin:1rem auto;border: 1px solid #DDDDDD; background-color:#FFFFFF;border-radius:0.75rem;border-top:3px solid #37df5f}
+.deal_con .deal_top{ width:100%; height:7.1875rem; line-height:7.1875rem;border-bottom: 1px solid #DDDDDD; text-align: center;font-size:1.75rem;}
+.deal_con .deal_top a{text-decoration: none;  padding:0.875rem 2rem;color:#206cde; font-size:1.75rem;border-radius:0.75rem;}
+.deal_con .deal_top a.list{ background-color:#206cde; color:#FFFFFF;}
+.deal_con .deal_con_con{ display: none;}
+.deal_con .deal_con_con dt,.deal_con .deal_con_con dd{border-bottom:1px solid #DDDDDD; height:4.75rem; font-size:1.5rem; padding:0 1rem;}
+.deal_con .deal_con_con dt span{ font-weight: 700;}
+.deal_con .deal_con_condt:after,.deal_con .deal_con_con dd:after{ content:"";clear: both;}
+.deal_con .deal_con_con span{ display:block; float: left; overflow: hidden;height:4.75rem; line-height:4.75rem;}
+.deal_con .deal_con_con span:nth-child(1){ width:30%; text-align: left;}
+.deal_con .deal_con_con span:nth-child(2){ width:20%; text-align: center;}
+.deal_con .deal_con_con span:nth-child(3){ width:30%; text-align: center;}
+.deal_con .deal_con_con span:nth-child(4){ width:20%; text-align: right;}
+
+.deal_con .num span:nth-child(1){ width:30%; text-align: left;}
+.deal_con .num span:nth-child(2){ width:20%; text-align: center;}
+.deal_con .num span:nth-child(3){ width:20%; text-align: center;}
+.deal_con .num span:nth-child(4){ width:15%; text-align: center;}
+.deal_con .num span:nth-child(5){ width:15%; text-align: right;}
+
+.deal_con .ael label{ display: block; width:100%; height:100%;}
+.deal_con .ael span:nth-child(1){ width:20%; text-align: center;}
+.deal_con .ael span:nth-child(2){ width:20%; text-align: center;}
+.deal_con .ael span:nth-child(3){ width:20%; text-align: center;}
+.deal_con .ael span:nth-child(4){ width:20%; text-align: center;}
+.deal_con .ael span:nth-child(5){ width:20%; text-align: center;}
+/*.deal_con .ael span:nth-child(6){ width:15%; text-align: right;}*/
+
+.deal_con .page{ height:4.75rem; line-height:4.75rem;  font-size:1.375rem; padding:0 1rem;}
+.deal_con .page b{ font-size:1.375rem; margin:0 0.2rem;}
+.deal_con .page select{ margin-left:1rem; height:2.5rem; font-size:1.375rem;}
+
+.deal_con  .button{display:none ;width:100%; height:7.1875rem; line-height:7.1875rem;text-align: center;}
+.deal_con  .button a{text-decoration: none;  padding:0.875rem 2rem;background-color:#5491ed; color:#FFFFFF; font-size:1.75rem;border-radius:0.75rem;}
+.tishi{display:none ;padding:2rem; font-size:1.5rem; color:#666666; max-width:750px; margin: 0 auto; line-height:2rem;}
+
+
+
+

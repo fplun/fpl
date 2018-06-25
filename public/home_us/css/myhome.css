@@ -1,0 +1,17 @@
+
+/*个人中心主体内容*/
+.content{ width:100%;}
+.content .banner{ width:100%; height:9.375rem;font-size:2rem;color:#d6e6fd;text-shadow:0.1rem 0.2125rem 0.2125rem #000;font-weight:bold;text-align: center; line-height: 9.375rem; background: -webkit-linear-gradient(left,#9c33ec, #1a8be2); background: -o-linear-gradient(left,#9c33ec,  #1a8be2); background: -moz-linear-gradient(left,#9c33ec,  #1a8be2);background: linear-gradient(left,#9c33ec,  #1a8be2);}
+.content .user{ width:100%; height:6.25rem;padding:3.125rem 0; text-align: center;}
+.content .user p{ height:3.125rem; line-height: 3.125rem; width: 100%; font-size: 1.75rem;}
+.content .user p span{ color:#206cde;}
+.content .myurl{ padding: 0 1.5rem; }
+.content .myurl li a{ display: block; width:100%; height: 100%;font-size:1.75rem;}
+.content .myurl li{ width:100%; border-bottom:1px solid #e5e5e5; height:4.5rem; line-height:4.5rem; }
+.content .myurl li:nth-child(1){border-top: 1px solid #e5e5e5;}
+.content .myurl li a:before{ content:""; display: inline-block; width:3.75rem; height:4.5rem; vertical-align: middle;background: no-repeat center;}
+.content .myurl li a b{ float: right; margin-right:0.75rem; color:#206cde; font-weight: normal;font-size:1.5rem;}
+.content .myurl li:nth-child(1) a:before{background-image: url(../images/myhome_1.png);background-size:1.75rem 2rem;}
+.content .myurl li:nth-child(2) a:before{background-image: url(../images/myhome_2.png);background-size:2rem 1.8rem;}
+.content .myurl li:nth-child(3) a:before{background-image: url(../images/myhome_3.png);background-size:1.8rem 2.1rem;}
+.content .myurl li:nth-child(4) a:before{background-image: url(../images/myhome_4.png);background-size:1.9rem 1.9rem;}
